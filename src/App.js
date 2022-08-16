@@ -17,10 +17,10 @@ const App = () => {
   };
 
   return (
-    <div>
+    <React.Fragment>
       <UserInput onSaveUserData={addUserHandler} />
       <UserList users={userList} />
-    </div>
+    </React.Fragment>
   );
 };
 
